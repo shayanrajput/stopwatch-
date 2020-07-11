@@ -1,0 +1,84 @@
+h1 {
+    display: inline-block;
+    color: blueviolet;
+    width: 100px;
+}
+
+body {
+    text-align: center;
+    margin-top: 100px;
+}
+
+button {
+    width: 100px;
+    margin-bottom: 10px;
+    color: slateblue;
+    background-color: greenyellow;
+}
+
+.main {
+    border: black solid 2px;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.heading {
+    align-items: center;
+    font-size: xx-large;
+    font-weight: bold;
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.shayan {
+    display: none;
+}
+
+.shami {
+    display: visible;
+}
+
+@media only screen and (max-width: 1050px) {
+    .main {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .main {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .main {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .main {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    .main {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .main {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .main {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+}
